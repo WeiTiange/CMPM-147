@@ -1,23 +1,118 @@
 const fillers = {
-    adventurer: ["My dude", "Bro", "Adventurer", "Traveller", "Fellow", "Citizen", "Ashen One", "Dragonborn", "Cool person", "Tarnished", "$adventurer and $adventurer", "$adventurer, $adventurer, and $adventurer", "Geoff"],
-    pre: ["Fra", "Tro", "Gre", "Pan", "Ast", "Ara"],
-    post: ["gria", "ston", "gott","-on-the-lee", "ora", "Ara", "uwu"],
-    people: ["kindly", "meek", "brave", "wise", "sacred", "cherished", "honored", "forgotten", "apathetic", "mystic", "orca"],
-    item: ["axe", "staff", "book", "cloak", "shield", "club", "sword", "magic gloves", "galvel", "fists", "mace", "potato"],
-    num: ["two", "three", "eleven", "so many", "too many", "an unsatisfying number of", "barely any", "an unspecified amount of", "surely a satisfactory number of"],
-    looty: ["gleaming", "valuable", "esteemed", "rare", "exalted", "scintillating", "kinda gross but still usefull", "complete garbage"],
-    loots: ["coins", "chalices", "ingots", "hides", "victory points", "gems","scrolls", "bananas", "noodles", "goblins", "CS Majors", "college credits"],
-    baddies: ["orcs", "glubs", "fishmen", "cordungles", "mountain trolls", "college professors", "dragon", "evil $adventurer", "agents of chaos"],
-    message: ["call", "txt", "post", "decree", "shoutz", "tweets", "choiche", "hearkens", "harkening", "harkenening", "harkenenening", "...wait, no! Come back", "Watermelon"],
-    
+  protagonist: [
+    "Traveler",
+    "Tourist",
+    "Adventurer",
+    "Space Explorer",
+    "Scientist",
+    "Professor",
+    "Tony Stark",
+    "$protagonist and $protagonist"
+  ],
+
+  travel_time: [
+    "10 minutes",
+    "243 years",
+    "1 second",
+    "375 hours"
+  ],
+
+  destination: [
+    "YYDS",
+    "Bilibili",
+    "H28",
+    "M78",
+    "Ogrihiri",
+    "Xunkotune",
+    "Elliri",
+    "Ezora",
+    "Uanus",
+    "Kowei",
+    "Lluiphus",
+    "Chizuphus",
+    "Grars 9M6",
+    "Dronoe 5I",
+    "Unknown planet in $galaxy Area"
+  ],
+
+  planet: [
+    "YYDS",
+    "Bilibili",
+    "H28",
+    "M78",
+    "Ogrihiri",
+    "Xunkotune",
+    "Elliri",
+    "Ezora",
+    "Uanus",
+    "Kowei",
+    "Lluiphus",
+    "Chizuphus",
+    "Grars 9M6",
+    "Dronoe 5I",
+    ],
+
+  planet_type: [
+    "gas planet",
+    "liquid planet",
+    "planet like Earth"
+  ],
+
+  life: [
+    "with very basic organisms",
+    "with unknown organisms",
+    "without any organism",
+    "with high intelligence creatures"
+  ],
+
+  rotation_period: [
+    "2 hours",
+    "36 hours",
+    "95 minutes",
+    "1 earth year",
+    "78 earth days"
+  ],
+
+  galaxy: [
+    "B839-H6",
+    "Carina Aquarii",
+    "Beta Arcturus",
+    "Pavo Lyra",
+    "Ilioneus Nebula",
+    "Zephyrus Star System",
+    "Hurricane Nebula",
+    "Grain Cloud",
+    "Crescent Cloud",
+    "KB-937",
+    "OOY 87H"
+  ],
+
+  radius: [
+    "23849285 km",
+    "98098509283507 km",
+    "305002 km",
+    "2315 km"
+  ],
+
+  time: [
+    "10 days",
+    "12 hours",
+    "3 months",
+    "4 years",
+    "2 centries",
+    "90 minutes"
+  ],
+  distance: [
+    "0.74 light-year",
+    "233 light-year",
+    "114514 light-year",
+    "1919 light-year",
+    "1145141919 light-year"
+  ]
   };
   
-  const template = `$adventurer, heed my $message!
-  
-  I have just come from $pre$post where the $people folk are in desperate need. Their town has been overrun by $baddies. You must venture forth at once, taking my $item, and help them.
-  
-  It is told that the one who can rescue them will be awarded with $num $looty $loots. Surely this must tempt one such as yourself!
-  `;
+const template = "$protagonist, you've arrived on $destination, which is $distance away from the Earth!\n\nIt took you $travel_time to arrive on this planet. \n\nThe radius of this planet is $radius.\n\nIt is a $planet_type $life. The rotation period of this planet is $rotation_period.\n\nIt's in the $galaxy Galaxy, planets $planet, $planet, and $planet are in this galaxy.\n\n You will have $time to explore this planet, when the time is up, we need to go to a new planet!";
+
   
   
   // STUDENTS: You don't need to edit code below this line.

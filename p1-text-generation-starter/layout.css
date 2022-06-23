@@ -1,0 +1,32 @@
+#clicker {
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    font-size: 20px;
+    font-style: italic;
+    border-radius: 7.5px;
+    background: rgb(211, 225, 255);
+}
+
+#clicker:hover {
+    background: rgb(255, 242, 199) ;
+}
+
+#box {
+    font-family: fantasy;
+    font-size: 25px;
+    border: thin solid gray;
+    padding: 1em;
+    margin: 1em;
+    box-shadow: 2px 2px 5px gray;
+    background: #ffe;
+}
+
+#title {
+    font-family: fantasy;
+    padding: 1em;
+    margin: 1em;
+    text-align: center;
+    font-size: 40px;
+}
