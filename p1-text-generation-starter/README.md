@@ -1,9 +1,16 @@
-# p1-text-generation-starter
-Credit: Adam Smith
+# p1-text-generation-starter - Explore Planets!
+Credit: Adam Smith, Tiange Wei
 
-##  <span style="color:rgb(0,255,255)">Artist Statement:<span>
-#### <span style="color:rgb(135,206,250)">What is the effect you're tring to achieve?</span>
-It's an introduction of a new planet for the traveler who arrives on the planet for the first time. The generated texts introduce the features of the planet, such as the type of the planet, the location of it, and how long the traveler is able to stay on it. 
+## Title:
+Explore Planets!
 
-####  <span style="color:rgb(135,206,250)">Did I achieve that effect?</span>
-I think I did achieve the effect of making an introduction of a planet by giving some random information of the planet. 
+## Description:
+This is an introduction of a new planet for the traveler who arrives on the planet for the first time. The generated texts introduce the features of the planet, such as the type of the planet, the location of it, and how long the traveler is able to stay on it. 
+
+
+##  Artist Statement:
+#### What is the effect you're tring to achieve?
+I want to create stories of space traveling, which the traveler travels around different types of planets in different galaxies.
+
+#### Did I achieve that effect?
+I think I did achieve the effect by giving some random information of the planet. 
