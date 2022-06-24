@@ -111,7 +111,7 @@ const fillers = {
   ]
   };
   
-const template = "$protagonist, you've arrived on $destination, which is $distance away from the Earth!\n\nIt took you $travel_time to arrive on this planet. \n\nThe radius of this planet is $radius.\n\nIt is a $planet_type $life. The rotation period of this planet is $rotation_period.\n\nIt's in the $galaxy Galaxy, planets $planet, $planet, and $planet are in this galaxy.\n\n You will have $time to explore this planet, when the time is up, we need to go to a new planet!";
+const template = "$protagonist, you've arrived on $destination, which is $distance away from the Earth!\n\nIt took you $travel_time to arrive on this planet. \n\nThe radius of this planet is $radius.\n\nIt is a $planet_type $life. The rotation period of this planet is $rotation_period.\n\nIt's in the $galaxy Galaxy, planets $planet, $planet, and $planet are in this galaxy as well.\n\n You will have $time to explore this planet, when the time is up, we need to go to a new planet!";
 
   
   
